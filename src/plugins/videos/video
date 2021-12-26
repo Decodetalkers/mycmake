@@ -1,0 +1,12 @@
+// Standard iostream objects -*- C++ -*-
+
+//
+// ISO C++ 14882: 27.3  Standard iostream objects
+//
+#ifndef VIDEO
+#define VIDEO 1
+
+namespace video {
+  extern bool sub(int &a);
+}
+#endif // !VIDEO

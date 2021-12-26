@@ -1,5 +1,5 @@
-#include "video.h"
-bool sub(int &a) {
+#include "video"
+bool video::sub(int &a) {
 	if(a < 0) {
 		return false;
 	} else {

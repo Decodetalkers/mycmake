@@ -1,6 +1,7 @@
 #include <iostream>
 #include "types.h"
-#include "video.h"
+#include <video>
+using namespace video;
 int main (int argc, char *argv[])
 {
 	std::cout<< "Hello " << std::endl;
