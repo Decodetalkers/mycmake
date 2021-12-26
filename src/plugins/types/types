@@ -1,0 +1,7 @@
+// The types -*- C++ -*-
+
+#ifndef TYPES
+#define TYPES
+void add(int &a);
+#endif // !DEBUG
+

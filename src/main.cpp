@@ -1,5 +1,5 @@
 #include <iostream>
-#include "types.h"
+#include <types>
 #include <video>
 using namespace video;
 int main (int argc, char *argv[])
