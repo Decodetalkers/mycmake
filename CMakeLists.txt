@@ -1,0 +1,8 @@
+project(learning)
+cmake_minimum_required(VERSION 3.22)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+#add_executable(cmake_study src/main.cpp src/header.h)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/build)
+add_subdirectory(src)
