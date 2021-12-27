@@ -7,6 +7,6 @@
 #define VIDEO 1
 
 namespace video {
-  extern bool sub(int &a);
+extern bool sub(int &a);
 }
 #endif // !VIDEO

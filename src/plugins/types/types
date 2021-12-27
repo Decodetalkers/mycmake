@@ -4,4 +4,3 @@
 #define TYPES
 void add(int &a);
 #endif // !DEBUG
-

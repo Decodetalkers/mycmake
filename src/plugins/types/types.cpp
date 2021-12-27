@@ -1,4 +1,2 @@
 #include "types"
-void add(int &a) {
-	a+=1;
-}
+void add(int &a) { a += 1; }
