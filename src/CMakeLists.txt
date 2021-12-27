@@ -12,4 +12,5 @@ target_link_libraries(
 	${PROJECT_NAME}
 	types
 	videos
+	sound
 )

@@ -2,5 +2,13 @@
 
 #ifndef TYPES
 #define TYPES
+#include <vector>
+
+#include <iostream>
 void add(int &a);
+template <typename T> void mapp(std::vector<T> &a) {
+  for (T b : a) {
+    std::cout << b << std::endl;
+  }
+}
 #endif // !DEBUG

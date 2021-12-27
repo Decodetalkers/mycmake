@@ -1,5 +1,7 @@
 #include <iostream>
+#include <sound.h>
 #include <types>
+#include <vector>
 #include <video>
 using namespace video;
 int main(int argc, char *argv[]) {
@@ -10,5 +12,8 @@ int main(int argc, char *argv[]) {
   if (sub(a)) {
     std::cout << a << std::endl;
   }
+  std::vector<float> vecx{1.11, 2, 3, 4, 5};
+  mapp<float>(vecx);
+  sound();
   return 0;
 }
