@@ -4,5 +4,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF) 
 add_subdirectory(plugins/types)
 add_subdirectory(plugins/videos)
-add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME} types videos)
+add_executable(
+	${PROJECT_NAME}
+	main.cpp
+)
+target_link_libraries(
+	${PROJECT_NAME}
+	types
+	videos
+)
