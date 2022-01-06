@@ -7,7 +7,7 @@ namespace mp4 {
 class mp4 : public video::videos {
 public:
   mp4(int length = 0);
-  // virtual ~mp4();
+  ~mp4();
   void get_length();
 
 private:
