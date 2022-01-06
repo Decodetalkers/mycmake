@@ -6,7 +6,9 @@
 #ifndef VIDEO
 #define VIDEO 1
 
+#include "mp4/mp4.h"
 namespace video {
 extern bool sub(int &a);
 }
+
 #endif // !VIDEO
