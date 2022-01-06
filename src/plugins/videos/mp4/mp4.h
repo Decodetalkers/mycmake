@@ -2,8 +2,7 @@
 #define MP4_H
 
 #include "base_video.h"
-namespace video {
-namespace mp4 {
+namespace video::mp4 {
 class mp4 : public video::videos {
 public:
   mp4(int length = 0);
@@ -13,7 +12,6 @@ public:
 private:
   int length;
 };
-} // namespace mp4
-} // namespace video
+} // namespace video::mp4
 
 #endif // !MP4_H

@@ -1,8 +1,7 @@
 #ifndef MOV_H
 #define MOV_H
 #include "base_video.h"
-namespace video {
-namespace mov {
+namespace video::mov {
 class mov : public video::videos {
 public:
   mov(int length = 100);
@@ -13,6 +12,5 @@ private:
   int length;
 };
 
-} // namespace mov
-} // namespace video
+} // namespace video::mov
 #endif // !MOV_H
