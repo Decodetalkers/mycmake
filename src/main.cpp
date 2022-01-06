@@ -31,5 +31,7 @@ int main(int argc, char *argv[]) {
     vec_vedio.pop_back();
   }
   std::cout << "test" << std::endl;
+  auto y = mp4::mp4(mp4::Style::Big);
+  y.get_size();
   return 0;
 }
