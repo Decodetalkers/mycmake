@@ -16,7 +16,12 @@ int main(int argc, char *argv[]) {
   std::vector<float> vecx{1.11, 2, 3, 4, 5};
   mapp<float>(vecx);
   sound();
-  auto e = video::mp4::mp4();
-  e.get_length();
+  auto *e = new mp4::mp4();
+  e->get_length();
+  std::vector<videos *> vec_vedio{new mp4::mp4(), new mov::mov()};
+  vec_vedio.push_back(e);
+  for (auto i : vec_vedio) {
+    i->get_length();
+  }
   return 0;
 }

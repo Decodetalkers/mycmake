@@ -1,9 +1,10 @@
 #ifndef MP4_H
 #define MP4_H
 
+#include "base_video.h"
 namespace video {
 namespace mp4 {
-class mp4 {
+class mp4 : public video::videos {
 public:
   mp4(int length = 0);
   // virtual ~mp4();
