@@ -18,7 +18,8 @@ int main(int argc, char *argv[]) {
   sound();
   auto *e = new mp4::mp4();
   e->get_length();
-  std::vector<videos *> vec_vedio{new mp4::mp4(), new mov::mov()};
+  std::vector<videos *> vec_vedio{new mp4::mp4(), new mov::mov(),
+                                  new mov::mov(90)};
   vec_vedio.push_back(e);
   for (auto i : vec_vedio) {
     i->get_length();
