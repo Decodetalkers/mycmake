@@ -15,6 +15,17 @@ int main(int argc, char *argv[]) {
     std::cout << a << std::endl;
   }
   std::vector<float> vecx{1.11, 2, 3, 4, 5};
+  // for each is the same as range
+  std::for_each(vecx.begin(), vecx.end(), [](float &elem) { elem += 1; });
+  std::for_each(vecx.begin(), vecx.end(), [](float &elem) {
+    std::cout << "After add " << elem << std::endl;
+  });
+  for (float &elem : vecx) {
+    elem += 10;
+  }
+  for (float &elem : vecx) {
+    std::cout << "After add " << elem << std::endl;
+  }
   mapp<float>(vecx);
   sound();
   auto *e = new mp4::mp4();
