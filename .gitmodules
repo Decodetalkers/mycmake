@@ -1,3 +1,6 @@
 [submodule "libsvm"]
 	path = libsvm
 	url = git@github.com:chen244/libsvmCMakelib.git
+[submodule "libcsv"]
+	path = libcsv
+	url = git@github.com:chen244/libcsv.git
