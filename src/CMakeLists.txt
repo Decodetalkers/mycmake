@@ -13,4 +13,5 @@ target_link_libraries(
 	types
 	videos
 	sound
+	libsvm
 )
