@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
   auto metacsv = libcsv::CSV_SERDER({0, 1, 2, 3, 4, 5, 6}, 14);
   std::vector<std::pair<int, std::vector<double>>> output;
   try {
-    output = metacsv.get_messages("csvs/persion6.csv");
+    output = metacsv.get_messages("csvs/persion1.csv");
   } catch (char const *e) {
     std::cout << e << std::endl;
   } catch (std::invalid_argument e) {
