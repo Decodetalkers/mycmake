@@ -6,6 +6,8 @@ add_subdirectory(plugins/types)
 add_subdirectory(plugins/videos)
 add_executable(
 	${PROJECT_NAME}
+	train.h
+	train.cpp
 	main.cpp
 )
 target_link_libraries(
