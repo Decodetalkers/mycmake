@@ -47,9 +47,9 @@ int main(int argc, char *argv[]) {
   auto y = mp4::mp4(mp4::Style::Big);
   y.get_size();
   auto metacsv = libcsv::CSV_SERDER({0, 1, 2, 3, 4, 5, 6}, 14);
-  std::vector<std::pair<int, std::vector<float>>> output;
+  std::vector<std::pair<int, std::vector<double>>> output;
   try {
-    output = metacsv.get_messages("csvs/persion5.csv");
+    output = metacsv.get_messages("csvs/persion6.csv");
   } catch (char const *e) {
     std::cout << e << std::endl;
   } catch (std::invalid_argument e) {
