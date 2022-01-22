@@ -3,7 +3,7 @@
 namespace Train {
 serdesvm serde(serdecsv input) {
   int len = input.size();
-  vector<double> first{};
+  vector<int> first{};
 
   vector<vector<double>> second{};
   for (auto apair : input) {

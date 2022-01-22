@@ -4,7 +4,7 @@
 // ISO C++ 14882: 27.3  Standard iostream objects
 //
 #ifndef VIDEO
-#define VIDEO 1
+#define VIDEO
 
 #include "base_video.h"
 #include "mov/mov.h"
